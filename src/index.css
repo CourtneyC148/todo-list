@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("./imgs/annie-spratt-qyAka7W5uMY-unsplash.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+ 
+.todo-app{
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px 20px 10px;
+}
+
+.collection-item{
+  background: #fff;
+}
+ 
+.collection-item span:hover{
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+.container {
+  background: rgba(86, 86, 86, 0.5);
+}
+ 
+form{
+  margin: 20px 10px;
+}
+
+.label {
+  color: #fff;
+}
+
+.inputBorder {
+  border-bottom: 1px solid #ffffff !important;
+}
+
+.subTitle {
+  font-size: 1.2em;
+}
